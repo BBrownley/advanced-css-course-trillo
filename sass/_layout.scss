@@ -1,0 +1,28 @@
+.container {
+    max-width: 120rem; /* equal to 1200px since we defined font-size to be 62.5% in our html element*/
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark);
+    min-height: 50rem;
+}
+
+.header {
+    height: 7rem;
+    background-color: #FFF;
+    border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+    flex: 0 0 18%; /* Essentially fixes its width to 18%*/
+}
+
+.hotel-view {
+    background-color: #FFF;
+    background-color: orangered;
+    flex: 1; /* We want this element to occupy the remaining space of the container*/
+}
